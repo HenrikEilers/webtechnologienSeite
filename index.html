@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <header
+      class="header"
+      onclick="document.getElementById('headerHeadline').innerHTML = 'This is a Pride Site'"
+    >
+      <h3 id="headerHeadline">
+        This is the title of the Website.
+      </h3>
+    </header>
+
+    <br />
+    <h1 class="headlineContent" id="demo">That is our site</h1>
+    <script src="src/index.js"></script>
+    <p class="content">This is our Content</p>
+    <div class="main">
+      <button
+        id="upButton"
+        onClick="document.documentElement.scrollTop = 0;"
+        formtarget="_top"
+      ></button>
+    </div>
+    <footer class="footer"></footer>
+  </body>
+</html>

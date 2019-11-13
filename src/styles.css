@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+}
+.headlineContent {
+  color: red;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+
+  position: fixed;
+  top: 0;
+  left: auto;
+  right: 0;
+
+  text-align: center;
+
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+.content {
+  color: yellow;
+  text.align: justify;
+}
+.headlineContent {
+  color: red;
+}
+#headerHeadline {
+  margin: 1rem;
+  color: white;
+}
+#upButton {
+  width: 100px;
+  height: 100px;
+  /**border: none;*/
+  background-color: inherit;
+  border-radius: :30px
+}

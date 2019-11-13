@@ -1,2 +1,0 @@
-# webtechnologienSeite
-Created with CodeSandbox
